@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Google font, Roboto-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <!--CSS for index.html-->
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <div class="row" id="row" style="margin-right:5%;">
+        <div class="col s9" id="backdrop">
+            <h1><b>Online SWPC-CAT Training</b></h1>
+            <h5>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Sed aliquet ac neque et molestie. Sed odio quam, gravida a vestibulum ut, eleifend eget ipsum. 
+            </h5>
+        </div>
+
+        <form class="col s3" style="padding-top:2%;">
+            <img class="responsive-img" src="img/nasa-logo.png">
+            <div class="row">
+                <div class="input-field inline">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="wrong" data-success="right"></span>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="input-field inline">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="row" style="justify-content:center; display:flex; margin-top:12%; margin-bottom:15%;">
+                <button class="btn waves-effect waves-light z-depth-4" type="submit" name="action" style="font-size:larger;">
+                    <b>Log In</b>
+                </button>
+            </div> 
+            <div class="row" id="password-reset">
+                <i class="material-icons left">live_help</i><a href=# style="text-decoration:underline">Forgot password</a>
+            </div>
+            <div class="row" id="new-account">
+                <i class="material-icons left">person_add</i><a href="pages/new-account.html" style="text-decoration:underline;">Create new account</a>
+            </div>
+        </form>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+  </body>
+</html>

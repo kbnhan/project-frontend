@@ -1,0 +1,30 @@
+html {
+    background: linear-gradient(blueviolet, white);
+    background-repeat: no-repeat;
+}
+
+h3 {
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-bottom: unset;
+}
+
+.container h3 > b {
+    border-bottom: 5px solid blueviolet;
+}
+
+.container {
+    background: rgba(245, 245, 245);
+}
+
+form {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.input-field > label {
+    font-size: large;
+}

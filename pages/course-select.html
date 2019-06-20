@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Google font, Roboto-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <!--Import course-select.css-->
+    <link type="text/css" rel="stylesheet" href="../css/course-select.css"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><i class="material-icons">home</i></a>
+          <ul class="right">
+            <li>
+              <!--Dropdown trigger-->
+              <a class="dropdown-trigger" href="#" data-target="dropdown1">
+                <i class="large material-icons">more_vert</i>
+              </a>
+                <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                  <li><a href="#!">Log Out</a></li>
+                  <li class="divider" tabindex="-1"></li>
+                  <li><a href="#!">Settings</a></li>
+                  <li class="divider" tabindex="-1"></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <h3 class="center-align"><b>Select a Lesson</b></h4>
+
+    <div class="container">
+        <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">arrow_drop_down_circle</i>Lesson 1: Intro to Heliophysics</div>
+                  <div class="collapsible-body">
+                      <div class="row">
+                          <div class="col s3">
+                            <img class="responsive-img" src="../img/course-select-img/sun-lesson.jpg">
+                          </div>
+                          <div class="col s7" id="description">
+                              <h5><b>Description for Lesson 1</b></h5>
+                              <p>Quisque ullamcorper elit vitae lacus ullamcorper, a sagittis erat mollis.
+                                 Pellentesque sit amet purus consectetur, ullamcorper tellus vitae, congue mauris.
+                              </p>
+                          </div>
+                          <div class="col s2">
+                              <a class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="Start Lesson">
+                                <i class="material-icons">arrow_forward</i>
+                              </a>
+                          </div>
+                        </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">arrow_drop_down_circle</i>Lesson 2: Coronal Mass Ejections (CME)</div>
+                  <div class="collapsible-body">
+                    <div class="row">
+                      <div class="col s3">
+                        <img class="responsive-img" src="../img/course-select-img/cme.jpg">
+                      </div>
+                      <div class="col s7" id="description">
+                          <h5><b>Description for Lesson 2</b></h5>
+                          <p>Quisque ullamcorper elit vitae lacus ullamcorper, a sagittis erat mollis.
+                             Pellentesque sit amet purus consectetur, ullamcorper tellus vitae, congue mauris.
+                          </p>
+                      </div>
+                      <div class="col s2">
+                          <a class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="Start Lesson">
+                            <i class="material-icons">arrow_forward</i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">arrow_drop_down_circle</i>Lesson 3: Basics of SWPC-CAT</div>
+                  <div class="collapsible-body">
+                      <div class="row">
+                          <div class="col s3">
+                            <img class="responsive-img" src="../img/course-select-img/soho.jpg">
+                          </div>
+                          <div class="col s7" id="description">
+                              <h5><b>Description for Lesson 3</b></h5>
+                              <p>Quisque ullamcorper elit vitae lacus ullamcorper, a sagittis erat mollis.
+                                 Pellentesque sit amet purus consectetur, ullamcorper tellus vitae, congue mauris.
+                              </p>
+                          </div>
+                          <div class="col s2">
+                              <a class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="Start Lesson">
+                                <i class="material-icons">arrow_forward</i>
+                              </a>
+                          </div>
+                        </div>
+                  </div>
+                </li>
+
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">arrow_drop_down_circle</i>Lesson 4: Measurements with SWPC-CAT</div>
+                    <div class="collapsible-body">
+                        <div class="row">
+                            <div class="col s3">
+                              <img class="responsive-img" src="../img/course-select-img/particles.jpg">
+                            </div>
+                            <div class="col s7" id="description">
+                                <h5><b>Description for Lesson 4</b></h5>
+                                <p>Quisque ullamcorper elit vitae lacus ullamcorper, a sagittis erat mollis.
+                                   Pellentesque sit amet purus consectetur, ullamcorper tellus vitae, congue mauris.
+                                </p>
+                            </div>
+                            <div class="col s2">
+                                <a class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="Start Lesson">
+                                  <i class="material-icons">arrow_forward</i>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                  </li>
+            </ul>
+      </div>
+      
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/course-select.js"></script>
+  </body>
+</html>
