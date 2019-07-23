@@ -1,6 +1,8 @@
 //Auto Init - initializes all Materialize javascript components 
 M.AutoInit();
 
+var options = {}
+
 //Collapsible
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.collapsible');
